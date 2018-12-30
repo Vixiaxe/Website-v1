@@ -1,6 +1,56 @@
+* {
+  list-style: none;
+}
+
 html,
 body {
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden;
+  background-color: #c1c8e4;
+}
+.main {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left: 20%;
+  background-color: #c1c8e4;
+  color: #8860d0;
+}
+
+.sidebar {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  background-color: #84ceeb;
+  position: absolute;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+#cskillsText:hover,
+#fskillsText:hover,
+#homeText:hover {
+  color: #c1c8e4;
+}
+
+#homeText {
+  margin-top: -3px;
+}
+#cskillsText {
+  margin-top: -3px;
+}
+
+#fskillsText {
+  margin-top: -3px;
+}
+
+.fa-home:hover,
+.fa-laptop-code:hover,
+.fa-satellite:hover {
+  color: #c1c8e4;
 }

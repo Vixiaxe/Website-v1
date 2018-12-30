@@ -19,12 +19,38 @@ body {
 }
 
 .sidebar {
-  width: 5%;
-  height: 50%;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  background-color: #84ceeb;
+  position: absolute;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
 }
 
-.Home {
-  position: absolute;
-  top: 6%;
-  margin: 0.93%;
+#cskillsText:hover,
+#fskillsText:hover,
+#homeText:hover {
+  color: #c1c8e4;
+}
+
+#homeText {
+  margin-top: -3px;
+}
+#cskillsText {
+  margin-top: -3px;
+}
+
+#fskillsText {
+  margin-top: -3px;
+}
+
+.fa-home:hover,
+.fa-laptop-code:hover,
+.fa-satellite:hover {
+  color: #c1c8e4;
 }
