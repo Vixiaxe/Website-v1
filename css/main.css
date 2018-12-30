@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.sidebar {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  background-color: #84ceeb;
+}
+.main {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: #c1c8e4;
+  margin-left: 20%;
+  color: #8860d0;
+}
+
+.inset {
+  background-color: #84ceeb;
+  margin: 0 auto;
+  width: 95%;
+  height: 90%;
+}
+
+.inset:hover {
+  background-color: #c1c8e4;
+}
+.fa-home:hover {
+  color: #c1c8e4;
+}

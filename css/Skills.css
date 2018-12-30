@@ -1,0 +1,30 @@
+* {
+  list-style: none;
+}
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  background-color: #c1c8e4;
+}
+.main {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left: 20%;
+  background-color: #c1c8e4;
+  color: #8860d0;
+}
+
+.sidebar {
+  width: 5%;
+  height: 50%;
+}
+
+.Home {
+  position: absolute;
+  top: 6%;
+  margin: 0.93%;
+}
