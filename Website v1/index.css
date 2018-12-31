@@ -53,6 +53,11 @@ p {
   margin: 0 auto;
 }
 
+#javascripttest {
+  margin-left: 0%;
+  color: red;
+  text-align: left;
+}
 /* Sidebar */
 .s-sidebar__trigger {
   z-index: 2;
